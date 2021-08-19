@@ -80,4 +80,4 @@
     * Hot Site / Multi Site Approach
 
 ---- 
-Notes : 
+Notes:
