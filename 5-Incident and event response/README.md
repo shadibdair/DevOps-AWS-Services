@@ -79,4 +79,5 @@
     * Warm Standby
     * Hot Site / Multi Site Approach
 
-    
+---- 
+Notes : 
