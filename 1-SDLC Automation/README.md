@@ -136,4 +136,4 @@
 # New Part - Jenkins on AWS 
 
 * Jenkins with Code Pipeline: Jenkins replaces CodeBuild and is invoked by CodePipeline
-* Jenkins Setup EC2
+* Jenkins Setup E
