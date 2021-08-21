@@ -49,6 +49,11 @@
 ## GuardDuty:
 - Amazon GuardDuty is a threat detection service that continuously monitors for malicious activity and unauthorized behavior to protect your AWS accounts, workloads, and data stored in Amazon S3. ... With GuardDuty, you now have an intelligent and cost-effective option for continuous threat detection in AWS.
 
+**Benefits**
+    - Comprehensive threat identification
+    - Strengthens security through automation
+    - Enterprise scale and central management
+
 
 ---
 
