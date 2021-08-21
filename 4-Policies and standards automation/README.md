@@ -52,7 +52,7 @@
 **Benefits**
     - Comprehensive threat identification
     - Strengthens security through automation
-    - Enterprise scale and central management
+    - Enterprise scale and central management.
 
 
 ---
