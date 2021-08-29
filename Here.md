@@ -2,7 +2,7 @@
 
 ### A CICD pipeline helps you automate steps in your software delivery process
 
-### CodeBuild compiles source code, runs tests, and produces packages that are ready to deploy
+### CodeBuild compiles source code, runs tests, and produces packages that are ready to deploy.
 
 
 
