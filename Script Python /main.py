@@ -1,38 +1,17 @@
-import openpyxl # To read and write from EXCEL file
+# First Install (Pandas), (openpyxl):
+    # pip3 install pandas
+    # pip3 install openpyxk
 
-"""
-import datetime
-DAY, NIGHT = 1, 2
-def check_time(time_to_check, MorningShift, EveningShift, NightShift):
-    if MorningShift > EveningShift and MorningShift < NightShift:
-        if time_to_check > MorningShift or time_to_check < EveningShift:
-            return NIGHT, True
-    elif MorningShift < off_time:
-        if time_to_check > MorningShift and time_to_check < EveningShift:
-            return DAY, True
-    elif time_to_check == MorningShift:
-        return None, True
-    return None, False
+import openpyxl # To read and write from EXCEL file.
+import pandas as pd # Is most widely used for data science/data analysis and machine learning tasks.
 
 
-MorningShift = datetime.time(7,15)
-EveningShift = datetime.time(15,23)
-NightShift = datetime.time(23,7)
-timenow = datetime.datetime.now().time()
-current_time = datetime.datetime.now().time()
+data = pd.read_excel (r'/Users/shadibadir/Desktop/ScriptPython/Shifts_SRE.xlsx')
+df = pd.DataFrame(data, columns= ['Date','SRE']) # Printed all the content below the column that you choosed.
+df.loc[df['SRE'] == 'Shadi', 'Time'] = '7:00 - 15:00' # (loc) attribute access a group of rows and columns by label(s)
+print (df)
 
-when, matching = check_time(current_time, MorningShift, EveningShift)
-
-if matching:
-    if when == NIGHT:
-        print("Night Time detected.")
-    elif when == DAY:
-        print("Day Time detected.")
-"""
-
-
-
-
+print('-----\n')
 
 excel_file = ['/Users/shadibadir/Desktop/ScriptPython/Shifts_SRE.xlsx'] # Specifying the path of the EXCEL file.
 
