@@ -1,4 +1,4 @@
-import openpyxl # To read and write from EXCEL file.
+import openpyxl # To read and write from EXCEL file
 
 """
 import datetime
